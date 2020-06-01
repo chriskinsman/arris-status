@@ -1,5 +1,5 @@
 {
-  "name": "arris-status",
+  "name": "@chriskinsman/arris-status",
   "version": "1.0.0",
   "description": "Scrapes channel stats from arris status page",
   "main": "index.js",
