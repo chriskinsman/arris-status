@@ -27,6 +27,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
+      - run: ls -alh
       - run: npm ci
       - run: npm publish --access public
         env:
@@ -41,8 +42,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
-      - run: pwd
-      - run: cat /home/runner/work/arris-status/arris-status/.npmrc
+      - run: ls -alh
       - run: npm ci
       - run: npm publish --access public
         env:
